@@ -6,7 +6,7 @@
 }
 
 .logo span {
-  background-color: white;
+  background-color: var(--white);
   filter: invert(100%);
   padding: 0 0.5rem;
 }
