@@ -1,0 +1,27 @@
+.header {
+  max-width: var(--max-width);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+.menu {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+}
+
+.menu a {
+  text-decoration: none;
+  color: inherit;
+  padding: 0 0.5rem;
+  background-color: white;
+  transition: filter 0.5s ease;
+}
+
+.inverted {
+  filter: invert(100%);
+}
