@@ -1,5 +1,7 @@
 import Head from 'next/head';
 
+import ProfileCard from '../components/ProfileCard';
+
 export default function Home() {
   return (
     <>
@@ -8,7 +10,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <section>About me</section>
+      <section>
+        <ProfileCard />
+      </section>
     </>
   );
 }
