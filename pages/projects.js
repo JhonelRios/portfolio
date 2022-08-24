@@ -1,4 +1,7 @@
 import Head from 'next/head';
+import { projectsList } from '../utils/projectsList';
+
+import PortfolioGrid from '../components/Portfolio/PortfolioGrid';
 
 export default function Projects() {
   return (
@@ -8,7 +11,11 @@ export default function Projects() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <section>Projects</section>
+      <section>
+        <h2>Projects</h2>
+
+        <PortfolioGrid projectsList={projectsList} />
+      </section>
     </>
   );
 }
