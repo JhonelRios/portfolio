@@ -1,0 +1,30 @@
+.card {
+  display: grid;
+  grid-template-columns: 45px 1fr;
+  grid-template-rows: 64px minmax(min-content, max-content);
+  gap: 0 0.5rem;
+  line-height: 2rem;
+}
+
+.card * {
+  margin: 0;
+}
+
+.card img {
+  width: 40px;
+  height: 40px;
+  place-self: center;
+}
+
+.title h4 {
+  font-size: 1.2rem;
+  filter: hue-rotate(180);
+}
+
+.description {
+  grid-column: 2/3;
+}
+
+.description p {
+  font-size: 1rem;
+}

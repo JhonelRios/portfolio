@@ -1,0 +1,41 @@
+.tree {
+  display: grid;
+  grid-template-columns: 1fr 20px 1fr;
+  gap: 1.5rem 3rem;
+  position: relative;
+}
+
+.dot_container {
+  grid-column: 2/3;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.left {
+  grid-column: 1/2;
+}
+
+.right {
+  grid-column: 3/4;
+}
+
+.dot {
+  width: 16px;
+  height: 16px;
+  background-color: var(--black);
+  border-radius: 100%;
+  margin: 0 auto;
+}
+
+.dot::after {
+  content: '';
+  height: calc(100% + 1.5rem);
+  background: linear-gradient(180deg, var(--black) 0%, var(--white) 100%);
+  width: 2px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: -1;
+}
