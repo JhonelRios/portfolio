@@ -6,7 +6,7 @@ export default function PortfolioGrid({ projectsList = [] }) {
   return (
     <section className={styles.container}>
       {projectsList.map(project => (
-        <PortfolioCard project={project} />
+        <PortfolioCard project={project} key={project.id} />
       ))}
     </section>
   );

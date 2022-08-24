@@ -25,4 +25,30 @@ export const projectsList = [
     github: 'https://github.com/JhonelRios/Petgram',
     url: 'https://petgram-jhonel.vercel.app/',
   },
+  {
+    id: 4,
+    name: 'Spotifu',
+    description:
+      'A Spotify clone, using its API and Next.js. It shows the top playlists, their songs and duration. Also have a search bar where you can find anything from Spotify.',
+    image: 'spotifu.png',
+    github: 'https://github.com/JhonelRios/spotifu',
+    url: 'https://spotifu-rosy.vercel.app/',
+  },
+  {
+    id: 5,
+    name: 'Platzi Exchange',
+    description: 'Page to see the value of cryto currencies and their exchange value.',
+    image: 'exchange.png',
+    github: 'https://github.com/JhonelRios/PlatziExchange',
+    url: 'https://exchange-jhonel.netlify.app/',
+  },
+  {
+    id: 6,
+    name: 'Instaclon',
+    description:
+      'An Instagram clone but using cat pictures. It is builded with React and uses Firebase for the backend.',
+    image: 'instaclon.png',
+    github: 'https://github.com/JhonelRios/Instaclon',
+    url: 'https://instaclon-96907.web.app/app/newsfeed',
+  },
 ];
